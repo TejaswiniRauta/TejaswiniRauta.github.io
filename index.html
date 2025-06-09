@@ -2,94 +2,71 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Heal With Tejaswini</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
-      font-family: 'Poppins', sans-serif;
-      background: #fefefe;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #f5faff, #e8fff0);
       color: #333;
     }
 
     header {
-      background: linear-gradient(to right, #56ab2f, #a8e063);
-      padding: 40px 20px;
+      background: #4CAF50;
+      padding: 20px;
       text-align: center;
       color: white;
-    }
-
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      font-weight: 300;
+      font-size: 2rem;
+      letter-spacing: 1px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
 
     nav {
-      background: #2ecc71;
       display: flex;
       justify-content: center;
-      padding: 12px 0;
+      gap: 20px;
+      background-color: #388e3c;
+      padding: 10px 0;
     }
 
     nav a {
       color: white;
       text-decoration: none;
-      margin: 0 20px;
-      font-weight: 500;
-      transition: color 0.3s ease;
-    }
-
-    nav a:hover {
-      color: #dfffe0;
+      font-weight: bold;
     }
 
     .hero {
-      background: #f3fff4;
-      padding: 40px 20px;
       text-align: center;
+      padding: 40px 20px;
+      background: #fff;
     }
 
     .hero h2 {
       font-size: 2rem;
-      color: #2c3e50;
-      margin-bottom: 15px;
+      color: #2e7d32;
     }
 
     .hero p {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       color: #555;
     }
 
-    .cards {
+    .section {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      gap: 30px;
       padding: 40px 20px;
-      gap: 20px;
+      background-color: #f0f9f3;
     }
 
     .card {
       background: white;
+      width: 300px;
       border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      max-width: 300px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       overflow: hidden;
-      transition: transform 0.3s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
     }
 
     .card img {
@@ -102,72 +79,55 @@
       padding: 20px;
     }
 
-    .card h3 {
-      color: #117a65;
-      margin-bottom: 10px;
-    }
-
-    .card p {
-      color: #555;
-      font-size: 0.95rem;
+    .card-content h3 {
+      color: #388e3c;
     }
 
     footer {
-      background: #27ae60;
-      color: white;
       text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-      font-size: 0.95rem;
-    }
-
-    @media(max-width: 768px) {
-      .cards {
-        flex-direction: column;
-        align-items: center;
-      }
+      padding: 15px;
+      background-color: #4CAF50;
+      color: white;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>Heal With Tejaswini</h1>
-    <p>Your Daily Dose of Natural Wellness</p>
-  </header>
+  <header>Heal With Tejaswini</header>
 
   <nav>
-    <a href="index.html">Home</a>
-    <a href="#about">About</a>
-    <a href="post1.html">Blog</a>
-    <a href="#contact">Contact</a>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
   </nav>
 
-  <section class="hero">
+  <div class="hero">
     <h2>Welcome to My Health Blog</h2>
     <p>Discover tips, natural remedies, and wellness insights curated by Tejaswini.</p>
-  </section>
+  </div>
 
-  <section class="cards">
+  <div class="section">
     <div class="card">
-      <img src="https://source.unsplash.com/600x400/?ayurvedic,herbs" alt="Ayurveda Image">
+      <img src="https://source.unsplash.com/300x180/?ayurveda,herbal" alt="Ayurveda">
       <div class="card-content">
         <h3>Power of Ayurvedic Medicine</h3>
         <p>Explore the benefits of ancient Indian medicine for modern health issues.</p>
       </div>
     </div>
+
     <div class="card">
-      <img src="https://source.unsplash.com/600x400/?yoga,fitness" alt="Yoga Image">
+      <img src="https://source.unsplash.com/300x180/?yoga,morning" alt="Yoga">
       <div class="card-content">
         <h3>Morning Yoga Routines</h3>
         <p>Start your day fresh and healthy with these simple yoga exercises.</p>
       </div>
     </div>
-  </section>
+  </div>
 
-  <footer>
-    © 2025 Heal With Tejaswini. All rights reserved.
-  </footer>
+  <footer>© 2025 Heal With Tejaswini. All rights reserved.</footer>
 
 </body>
 </html>
+
+   
