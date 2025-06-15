@@ -37,3 +37,6 @@ Through this blog, I aim to bring **clarity, positivity**, and **scientifically 
 ---
 
 ❤️ *Thank you for visiting Heal With Tejaswini. May you walk your wellness path with strength and peace.*
+
+<!-- Updated by Tejaswini on 16th June 2025 -->
+
