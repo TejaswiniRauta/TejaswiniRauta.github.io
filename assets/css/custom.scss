@@ -1,0 +1,60 @@
+// 🌈 Background & Font
+body {
+  background: linear-gradient(to bottom right, #fff5ec, #fef9f5);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+// 📦 Floating Cards
+.post-preview, .page {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.post-preview:hover, .page:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+// 🧭 Navbar
+#topbar {
+  background: #185a9d;
+  color: #fff;
+}
+#topbar a {
+  color: #fff;
+  margin: 0 10px;
+}
+#topbar a:hover {
+  color: #43cea2;
+  text-decoration: underline;
+}
+
+// 🖋️ Site Title Hover
+.site-title {
+  font-family: 'Segoe UI', sans-serif;
+  transition: transform 0.3s ease;
+}
+.site-title:hover {
+  transform: scale(1.05) rotate(-1deg);
+  color: #43cea2;
+}
+
+// 📍 Footer
+#footer {
+  background: #f4f4f4;
+  color: #555;
+  font-size: 0.9rem;
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+// 🔵 Headings
+h1, h2, h3 {
+  color: #185a9d;
+  font-weight: bold;
+}
+
