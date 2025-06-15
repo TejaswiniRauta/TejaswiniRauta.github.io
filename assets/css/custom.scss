@@ -1,0 +1,69 @@
+// 🌿 Stylish Body Background
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #fff5ec, #e0f7fa);
+  color: #222;
+  padding-bottom: 50px;
+}
+
+// 🔠 Headings
+h1, h2, h3 {
+  font-weight: 700;
+  color: #185a9d;
+}
+
+// 🔗 Links
+a {
+  color: #185a9d;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  color: #43cea2;
+  text-decoration: underline;
+}
+
+// 🧾 Sidebar title hover effect
+.site-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.8rem;
+  color: #185a9d;
+  transition: transform 0.4s ease;
+}
+.site-title:hover {
+  transform: scale(1.08) rotate(-1deg);
+}
+
+// 🪶 Floating blog cards and pages
+.post-preview, .page {
+  background: #ffffffee;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.post-preview:hover, .page:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+}
+
+// 🟣 Navbar and Footer (gradient look)
+nav, footer {
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+footer p {
+  text-align: center;
+  margin: 0;
+}
+
+// ✨ Make content max-width better on large screens
+.container-lg {
+  max-width: 1000px;
+}
