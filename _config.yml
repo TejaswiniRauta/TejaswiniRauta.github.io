@@ -24,6 +24,9 @@ social:
 
 theme_mode: light
 
+# ✅ Add custom head include (for injecting custom style)
+head_include: custom-head
+
 # Profile Photo in Sidebar
 avatar: /assets/img/tejaswini.jpg
 
@@ -35,6 +38,9 @@ toc: true
 
 # Enable future-dated blog posts
 future: true
+
+# Custom SCSS
+custom_css: assets/css/custom.scss
 
 # Comments System (can be added later)
 comments:
@@ -89,9 +95,6 @@ defaults:
 sass:
   style: compressed
 
-# ✅ Include this line to load your custom floating style
-custom_css: assets/css/custom.scss
-
 compress_html:
   clippings: all
   comments: all
@@ -120,5 +123,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-    head_include: custom-head
